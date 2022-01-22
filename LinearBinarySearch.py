@@ -56,19 +56,19 @@ def LinearSearch(cards, num_to_find):
 
 # checking our code against all the listed test cases:
 
-#for test in tests:
-#    print(LinearSearch(**test['input']) == test['output']['num_index'])
+for test in tests:
+    print(LinearSearch(**test['input']) == test['output']['num_index'])
 
-#for test in tests:
-#    print(BinarySearch(**test['input']) == test['output']['num_index'])
+for test in tests:
+    print(BinarySearch(**test['input']) == test['output']['num_index'])
 
 
 # example to implement
 
-#solve = BinarySearch([15,13,13,13,12,9,8,7,5,5,4,1], 13)
-#print(solve)
-#solve2 = LinearSearch([15,13,13,13,12,9,8,7,5,5,4,1], 5)
-#print(solve2)
+solve = BinarySearch([15,13,13,13,12,9,8,7,5,5,4,1], 13)
+print(solve)
+solve2 = LinearSearch([15,13,13,13,12,9,8,7,5,5,4,1], 5)
+print(solve2)
 
 
 # now let's analyze time complexity
@@ -127,10 +127,10 @@ def EndingPosition(numbers, num_to_find):
             low = mid + 1
     return "NIL"
 
-#numbers = [1,4,5,5,7,8,9,12,13,13,13,15]
-#num_to_find = 12
-#result = (StartingPosition(numbers, num_to_find), EndingPosition(numbers, num_to_find))
-#print(result)
+numbers = [1,4,5,5,7,8,9,12,13,13,13,15]
+num_to_find = 12
+result = (StartingPosition(numbers, num_to_find), EndingPosition(numbers, num_to_find))
+print(result)
 
 
 # Question 3:
