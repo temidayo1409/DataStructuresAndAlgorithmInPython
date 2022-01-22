@@ -177,7 +177,7 @@ def Num_of_Rotation(obtained_list):
             high = mid - 1
         else:
            low = mid + 1
-    return mid
+    return 0
 
 solve3 = Num_of_Rotation([2,3,4,5,6,9,0])
 print(solve3)
